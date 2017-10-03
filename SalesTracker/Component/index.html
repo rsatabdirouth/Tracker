@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html ng-app="mainApp" ng-controller="mainCtrl as main">
+<head>
+    {{main.title}}
+   
+	<meta charset="utf-8" />
+    <style>
+        [ng\:cloak],
+        [ng-cloak],
+        [data-ng-cloak],
+        [x-ng-cloak],
+        .ng-cloak,
+        .x-ng-cloak {
+            display: none !important;
+        }
+  table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+    </style>
+ 
+   
+</head>
+<body>
+  
+    
+<ng-view></ng-view>
+
+</body>
+</html>
+<script src="../Assets/Script/angular.js"></script>
+<script src="../Assets/Script/angular-route.js"></script>
+<script src="module.js"></script>
+<script src="route.js"></script>
+<script src="controller.js"></script>
+
+<script src="service.js"></script>
+<script src="Home/home.Ctrl.js"></script>
+<script src="AddWebsite/website.Ctrl.js"></script>
+<script src="AddStatus/status.Ctrl.js"></script>
+<script src="AddSource/sourceCtrl.js"></script>
+<script src="AddProduct/product.Ctrl.js"></script>
+<script src="AddBuyer/buyerCtrl.js"></script>
